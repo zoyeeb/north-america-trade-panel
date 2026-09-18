@@ -1,0 +1,11 @@
+# Copy this file to .Renviron in the repo root and fill in the values.
+# .Renviron is gitignored. Restart R after editing it.
+
+# Census International Trade API. Free, instant:
+# https://api.census.gov/data/key_signup.html
+CENSUS_API_KEY=
+
+# Optional path overrides. Leave blank to use <repo>/data.
+NA_PANEL_DATA_DIR=
+NA_PANEL_CIMT_DIR=
+NA_PANEL_UTO_IN_DIR=

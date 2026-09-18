@@ -1,0 +1,27 @@
+# Secrets
+.Renviron
+
+# Data. Not distributed with the code - see README, "Getting the data".
+data/
+*.csv
+*.csv.gz
+*.rds
+*.zip
+*.xlsx
+*.parquet
+
+# R session state
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
